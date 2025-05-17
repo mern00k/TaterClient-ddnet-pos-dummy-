@@ -122,3 +122,10 @@ tc_color_freeze_feet
 tc_spec_menu_ID
 tc_limit_mouse_to_screen
 ```
+### ShowHud Commands
+```
+cl_showhud_position_tower
+cl_showhud_dummy_speed
+cl_showhud_dummy_position
+cl_showhud_dummy_angle
+```
