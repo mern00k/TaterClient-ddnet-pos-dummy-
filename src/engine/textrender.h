@@ -334,6 +334,7 @@ public:
 	virtual unsigned GetRenderFlags() const = 0;
 
 	ColorRGBA DefaultTextColor() const { return ColorRGBA(1, 1, 1, 1); }
+	ColorRGBA YellowTextColor() const { return ColorRGBA(1, 1, 0, 1); }
 	ColorRGBA DefaultTextOutlineColor() const { return ColorRGBA(0, 0, 0, 0.3f); }
 	ColorRGBA DefaultTextSelectionColor() const { return ColorRGBA(1.0f, 1.0f, 1.0f, 0.5f); }
 
